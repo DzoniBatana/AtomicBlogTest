@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { createContext, useContext, useEffect, useState } from "react";
+=======
+import { createContext, useEffect, useState } from "react";
+>>>>>>> 1a75e0f25235d877154a72d37a5dadbf7c393a61
 import { faker } from "@faker-js/faker";
 
 function createRandomPost() {
@@ -61,7 +65,16 @@ function App() {
           {isFakeDark ? "☀️" : "🌙"}
         </button>
 
+<<<<<<< HEAD
         <Header />
+=======
+        <Header
+          posts={searchedPosts}
+          onClearPosts={handleClearPosts}
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+        />
+>>>>>>> 1a75e0f25235d877154a72d37a5dadbf7c393a61
         <Main posts={searchedPosts} onAddPost={handleAddPost} />
         <Archive onAddPost={handleAddPost} />
         <Footer />
