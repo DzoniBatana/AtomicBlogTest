@@ -2,7 +2,7 @@ import { useState } from "react";
 import { faker } from "@faker-js/faker";
 import Button from "./Button";
 import { PostProvider, usePosts } from "./PostContext";
-import Test from "./Test";
+//import Test from "./Test";
 
 function createRandomPost() {
   return {
